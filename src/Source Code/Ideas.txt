@@ -1,0 +1,15 @@
+- See if there's a way to have the camera not inherit the players orientation, then just do a check if players orientation == camera's orientation with a tolerance of 30 degrees and it the camera if it isn't - camera could then always be rightside up
+- Have a turbo button which allows you to swim faster
+- Have a time limit to beat to catch all of the fish
+
+- Look into using that character class in the wiki
+
+- Give speed burst when certain colors are collected
+
+- Have a time limit to try and catch as many enemies as possibl in to get a high score
+
+- Have different submarines to choose from. Small fast ones and big slow ones. Some could maybe have a tractor beam which pulls close enemies in (maybe make this an item)
+
+- Make it so you can only turn sub when moving forward (make the yaw acceleration proportional to the forward acceleration)
+
+- Implement a radar to show where fish are relative to the sub

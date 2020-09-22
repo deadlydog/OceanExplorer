@@ -1,0 +1,11 @@
+// Level Properties
+TimeLimit: 0.0	// No Time limit for this level
+LevelGoal: score 5000	// Must get a score of 5000 to beat the level
+
+LevelStory: You want to collect some marine specimens to\n take back to the lab and examine. This will\n give us clues about how these fish survive down\n here. Be careful, there is a Shark lurking around\n and it may feel threatened by us invading\n its territory
+
+LevelGoalDescription: Collect enough fish to obtain a score of\n 5000 points
+
+LevelGoalInGameDescription: Collect fish to obtain a score of 5000 points
+
+LevelGoalAccomplishedMessage: Good job! You collected plenty of specimens,\n some of which will hopefully turn out to be\n new species and lead to interesting discoveries

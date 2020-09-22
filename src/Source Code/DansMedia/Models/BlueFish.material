@@ -1,0 +1,42 @@
+
+material BlueFish/AMBALETA
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 0.4 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture BlueFishAle.JPG
+			}
+		}
+
+	}
+
+}
+
+material BlueFish/AMBBODY
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0.00784314 0 0 1
+			//diffuse 0.403922 0.4 0.4 1
+			ambient 1 1 1 1
+			diffuse 0.4 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture BlueFishBody.JPG
+			}
+		}
+
+	}
+
+}

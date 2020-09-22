@@ -1,0 +1,19 @@
+
+material BlueTangoFish/Material
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture BlueTangoFish.bmp
+			}
+		}
+
+	}
+
+}

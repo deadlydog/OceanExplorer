@@ -1,0 +1,47 @@
+DansStarWars
+{
+	type 		truetype
+	source 	solo5.ttf
+	size 		16
+	resolution 	96
+}
+
+DansEarth
+{
+	type 		truetype
+	source 	Earth.ttf
+	size 		16
+	resolution 	96
+}
+
+DansWaterReflection
+{
+	type 		truetype
+	source 	WaterReflection.ttf
+	size 		16
+	resolution 	96
+}
+
+DansAmplitude
+{
+	type 		truetype
+	source 	AmplitudeBRK.ttf
+	size 		16
+	resolution 	96
+}
+
+DansAir
+{
+	type 		truetype
+	source 	Air.ttf
+	size 		16
+	resolution 	96
+}
+
+DansMac
+{
+	type 		truetype
+	source 	MacType.ttf
+	size 		16
+	resolution 	96
+}

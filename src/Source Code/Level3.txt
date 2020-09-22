@@ -1,0 +1,29 @@
+// Level Properties
+TimeLimit: 120.0		// Time limit of level in seconds
+LevelGoal: survive 120.0	// Goal is to survive the level for 120 seconds
+
+LevelStory: The Shark must have sensed the submarines\n increase in power and the extra electrical charge\n has made it very aggressive. We've lowered the\n submarines power consumption, but try to avoid\n the Shark long enough for it to calm down. This\n also seems to have affected the fish as they\n are now forming schools with other fish of\n different species
+
+LevelGoalDescription: Survive for 2 minutes\n Tip: You can gain more health by collecting points
+
+LevelGoalInGameDescription: Survive for 2 minutes\n Collect points for more health
+
+LevelGoalAccomplishedMessage: Good job. The Shark has settled down and\n we're still alive!
+
+
+AllowMixedFlocking: true	// true or false - whether fish should only Flock with others of the same kind
+
+
+// Shark Properties
+SharkInitialPoints: 165
+SharkMinimumPoints: 80		// Lowest number of points Shark can have (so he doesn't get too slow)
+SharkFeedPoints: 30		// How many points Shark gets for eating a fish
+SharkNourishedPoints: 120
+SharkFullBellyPoints: 160
+SharkHealthDegradeDelay: 1.0	// How often in seconds the Shark should lose a point
+SharkSenseFishRange: 150.0
+SharkSenseSubmarineRange: 250.0
+SharkFeedRange: 1.0
+SharkAttackRange: 1.0
+SharkVelocityFraction: 0.1
+SharkHitDelay: 5.0		// How long the Shark should avoid the Player after attacking them

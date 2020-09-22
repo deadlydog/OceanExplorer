@@ -1,0 +1,111 @@
+// Material used for the Ocean floor
+material DansMedia/OceanBottom
+{
+	technique
+	{
+		pass
+		{
+			// Set the Ambient and Diffuse colors for this material
+			ambient 0.2 0.2 0.2
+            	diffuse 0.5 0.5 0.5
+
+			texture_unit
+			{
+				// Specify the Texture image to use
+				texture OceanBottom.jpg
+			}
+		}
+	}
+}
+
+// Material used for the Ocean surface
+material DansMedia/OceanSurface
+{
+	// Turn off shadows on this material
+	receive_shadows off
+
+	technique
+	{
+		pass
+		{
+			// Set the Ambient and Diffuse colors for this material
+			//ambient 0.1 0.1 0.1
+            	//diffuse 0.7 0.7 0.7
+			lighting off
+
+			texture_unit
+			{
+				// Specify the Texture image to use
+				texture OceanSurface.jpg
+			}
+		}
+	}
+}
+
+// Material used for the Ocean Walls
+material DansMedia/OceanWall
+{
+	technique
+	{
+		pass
+		{
+			// Set the Ambient and Diffuse colors for this material
+			ambient 0.2 0.2 0.2
+            	diffuse 0.5 0.5 0.5
+
+			texture_unit
+			{
+				// Specify the Texture image to use
+				texture WaterGlass.jpg
+			}
+		}
+	}
+}
+
+// Material used for the Ocean SkyBox
+material DansMedia/OceanSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			// Set to not display any pixels with an alpha value greater than 128
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				// Specify which texture to use for each of the 6 sides of the SkyBox
+				// Bottom of SkyBox is completely transparent
+				cubic_texture SkyBoxSide.png SkyBoxSide.png SkyBoxSide.png SkyBoxSide.png SkyBoxTop.png SkyBoxBottom.png separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+// Material used for the Ocean SkyBox
+material DansMedia/OutsideSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			// Set to not display any pixels with an alpha value greater than 128
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				// Specify which texture to use for each of the 6 sides of the SkyBox
+				// Bottom of SkyBox is completely transparent
+				cubic_texture front.bmp back.bmp left.bmp right.bmp up.bmp down.bmp separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}

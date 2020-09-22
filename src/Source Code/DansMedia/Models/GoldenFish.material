@@ -1,0 +1,112 @@
+
+material GoldenFish/ojo
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0 0 0 1
+			ambient 0.4 0.4 0.4 1
+			diffuse 0.4 0.4 0.4 1
+			cull_hardware none
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GoldenFishEye.JPG
+			}
+		}
+
+	}
+
+}
+
+material GoldenFish/aletarit
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0 0 0 1
+			ambient 0.4 0.4 0.4 1
+			diffuse 1 1 1 0.57
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GoldenFishSkinTexture.JPG
+			}
+		}
+
+	}
+
+}
+
+material GoldenFish/aletarig
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0 0 0 1
+			//diffuse 0 0 0 1
+			ambient 0.4 0.4 0.4 1
+			diffuse 0.4 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GoldenFishSkinTexture.JPG
+			}
+		}
+
+	}
+
+}
+
+material GoldenFish/dientes
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0 0 0 1
+			//diffuse 0 0 0 1
+			ambient 0.4 0.4 0.4 1
+			diffuse 0.4 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GoldenFishSkinTexture.JPG
+			}
+		}
+
+	}
+
+}
+
+material GoldenFish/pedro
+{
+	technique
+	{
+		pass
+		{
+			//ambient 0 0 0 1
+			//diffuse 0 0 0 1
+			ambient 0.4 0.4 0.4 1
+			diffuse 0.4 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture GoldenFishSkin.JPG
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,28 @@
+First, copy the "Source Code" folder from the CD to your hard drive
+
+To compile and run the program in Visual Studio 2005:
+- Open "Assignment.sln" in Visual Studio 2005
+- Go to Project -> Assignment Properties -> Configuration Properties -> Debugging, then set the Working Directory to "bin\release" (without quotes) (bin\debug for debug mode).
+
+
+To run the game from the executable:
+- Move "Assignment.exe" from the Release folder to the bin\release folder, then run it.
+
+
+If you encounter an error when trying to run the game either way, try:
+- Delete "CEGUI.log", "Ogre.log", and "ogre.cfg" from the "bin\release" (bin\debug for debug mode) folder if they exist
+
+
+
+
+
+VS 2005 Project Settings (these should already be set in Project -> Assignment Properties -> Configuration Properties):
+- Debugging -> Working Directory = bin\release (bin\debug for debug mode)
+- C/C++ -> General -> Additional Include Directories = OgreIncludes\samples\include;OgreIncludes\include
+- Linker -> General -> Additional Library Directories = OgreIncludes\lib
+- Linker -> Input -> Additional Dependencies 
+	release mode = OgreMain.lib OIS.lib CEGUIBase.lib OgreGUIRenderer.lib winmm.lib
+	debug mode = OgreMain_d.lib OIS_d.lib CEGUIBase_d.lib OgreGUIRenderer_d.lib winmm.lib
+
+
+Release mode should always be used as it is much faster, but debug mode should be used when debugging as release mode returns incorrect debug information

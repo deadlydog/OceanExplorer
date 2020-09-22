@@ -1,0 +1,81 @@
+
+material ParexoFish/parebod
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.00784314 0.00784314 0.00784314 1
+			diffuse 0.407843 0.4 0.403922 0.95
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ParexoFishSkin.JPG
+			}
+		}
+
+	}
+
+}
+
+material ParexoFish/pareeye
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 0.9
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+		}
+
+	}
+
+}
+
+material ParexoFish/parecola
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.0431373 0.0117647 0.0117647 1
+			diffuse 0.486275 0.486275 0.486275 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ParexoFishCola.JPG
+			}
+		}
+
+	}
+
+}
+
+material ParexoFish/pareale
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.407843 0.4 0.4 0.7
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture_alias 0
+				texture ParexoFishFin.JPG
+			}
+		}
+
+	}
+
+}

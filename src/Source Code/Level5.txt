@@ -1,0 +1,72 @@
+// Level Properties
+TimeLimit: 10.0			// Time limit of level in seconds
+LevelGoal: collect 58 100	// Must collect 50 Rings before time runs out
+
+LevelStory: A crack has appeared on the submarines hull.\n Swim through the rings to temporarily stop the\n crack from spreading
+
+LevelGoalDescription: Swim through all of the Rings before time\n runs out
+
+LevelGoalInGameDescription: Collect the Rings before time runs out
+
+LevelGoalAccomplishedMessage: Good work! The crack has been temporarily\n sealed, but the team agrees that we should\n head back to the surface as it is too risky\n to continue on with the submarine in its\n current condition
+
+CreateObject: 100 0 0 25 -90 0 0
+CreateObject: 100 0 0 50 -90 0 0
+CreateObject: 100 0 0 75 -90 0 0
+CreateObject: 100 0 -10 100 -45 0 0
+CreateObject: 100 0 -25 125 0 0 0
+CreateObject: 100 0 -50 135 0 0 0
+CreateObject: 100 0 -75 135 0 0 0
+CreateObject: 100 0 -100 130 0 0 0
+CreateObject: 100 0 -115 125 45 0 0
+CreateObject: 100 0 -125 100 90 0 0
+CreateObject: 100 0 -125 75 90 0 0
+CreateObject: 100 0 -125 50 90 0 0
+CreateObject: 100 0 -125 25 90 0 0
+CreateObject: 100 0 -125 0 90 0 0
+CreateObject: 100 0 -125 -25 90 0 0
+CreateObject: 100 0 -125 -50 90 0 0
+CreateObject: 100 0 -125 -75 90 0 0
+CreateObject: 100 0 -125 -100 90 0 0
+CreateObject: 100 0 -115 -125 -45 0 0
+CreateObject: 100 0 -100 -130 0 0 0
+CreateObject: 100 0 -75 -135 0 0 0
+CreateObject: 100 0 -50 -135 0 0 0
+CreateObject: 100 0 -25 -125 0 0 0
+CreateObject: 100 0 -10 -100 45 0 0
+CreateObject: 100 0 0 -75 90 0 0
+CreateObject: 100 0 0 -50 90 0 0
+CreateObject: 100 -25 0 -15 90 0 45
+
+CreateObject: 100 -50 0 0 0 0 -90
+CreateObject: 100 -75 0 0 0 0 -90
+CreateObject: 100 -100 -10 0 0 0 -45
+CreateObject: 100 -125 -25 0 0 0 0
+CreateObject: 100 -135 -50 0 0 0 0
+CreateObject: 100 -135 -75 0 0 0 0
+CreateObject: 100 -130 -100 0 0 0 0
+CreateObject: 100 -125 -115 0 0 0 45
+CreateObject: 100 -100 -125 0 0 0 90
+CreateObject: 100 -75 -125 0 0 0 90
+CreateObject: 100 -50 -125 0 0 0 90
+CreateObject: 100 -25 -125 0 0 0 90
+CreateObject: 100 0 -125 0 0 0 90
+CreateObject: 100 25 -125 0 0 0 90
+CreateObject: 100 50 -125 0 0 0 90
+CreateObject: 100 75 -125 0 0 0 90
+CreateObject: 100 100 -125 0 0 0 90
+CreateObject: 100 125 -115 0 0 0 -45
+CreateObject: 100 130 -100 0 0 0 0
+CreateObject: 100 135 -75 0 0 0 0
+CreateObject: 100 135 -50 0 0 0 0
+CreateObject: 100 125 -25 0 0 0 0
+CreateObject: 100 100 -10 0 0 0 45
+CreateObject: 100 75 0 0 0 0 90
+CreateObject: 100 50 0 0 0 0 90
+CreateObject: 100 25 25 0 0 0 45
+
+CreateObject: 100 0 50 0 0 0 0
+CreateObject: 100 0 75 0 0 0 0
+CreateObject: 100 0 100 0 0 0 0
+CreateObject: 100 0 125 0 0 0 0
+CreateObject: 100 0 140 0 0 0 0

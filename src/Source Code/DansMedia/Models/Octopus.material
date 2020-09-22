@@ -1,0 +1,280 @@
+
+material Octopus/ojo
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.756863 0.231373 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusEye.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/cabeza
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusCab.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/cabeza2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusCab2.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/bottom
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusBot.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT1.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT2.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT3.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT4.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT5.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT6.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t7
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT7.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/t8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusT8.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/inf
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusVent.JPG
+			}
+		}
+
+	}
+
+}
+
+material Octopus/sup
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.933333 0.87451 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture OctopusVent2.JPG
+			}
+		}
+
+	}
+
+}

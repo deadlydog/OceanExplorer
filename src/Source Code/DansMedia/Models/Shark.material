@@ -1,0 +1,35 @@
+
+material Shark/WSHTOOTH
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.901961 0.870588 0.780392 1
+		}
+
+	}
+
+}
+
+material Shark/WSHSKIN
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.764706 0.741176 0.666667 1
+			cull_hardware none
+
+			texture_unit
+			{
+				texture_alias 0
+				texture Shark.JPG
+			}
+		}
+
+	}
+
+}

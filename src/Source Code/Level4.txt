@@ -1,0 +1,13 @@
+// Level Properties
+TimeLimit: 0.0		// Time limit of level in seconds
+LevelGoal: collect 10 9 // Must catch 10 Killer Whales to beat the level
+
+LevelStory: Preliminary scans show that the Killer Whales\n have an extrodinary new type of cell which\n regenerates very rapidly. This could be the\n key to solving many human illnesses. We should\n obtain a good number of tissue samples from\n the Whales
+
+LevelGoalDescription: Obtain tissue samples from 10 Killer Whales
+
+LevelGoalInGameDescription: Collect 10 Killer Whales
+
+LevelGoalAccomplishedMessage: Awesome, we obtained plenty of tissue samples\n with minimal impact to the whales!
+
+CreateMultipleObjects: 10 9 // Create another 10 Killer Whales to make sure there are enough

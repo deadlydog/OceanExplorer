@@ -1,0 +1,50 @@
+// Level Properties
+TimeLimit: 0.0	// Time limit of level in seconds
+LevelGoal: none	// No specific goal to beat the level
+
+
+// Camera Properties
+CameraTightness: 0.07
+CameraTargetTightness: 0.1
+CameraTargetMaxOffsetAngle: 20.0
+LightingMode: 3	// 1 = Fast-Worst, 2 = Medium-Medium, 3 = Slow-Best
+
+
+// Player Properties
+PlayerInitialPoints: 3
+PlayerCaptureFishRange: 5.0	// How close Player must be to fish to capture them
+PlayerGetItemRange: 2.0		// How close Player must be to an item to get it
+
+
+// Initial number of each type of fish
+FlockingFishInitialCount: 150
+NonFlockingFishInitialCount: 30
+
+AllowMixedFlocking: false	// true or false - whether fish should only Flock with others of the same kind
+
+
+// Flocking Fish Properties
+FishSpawnAge: 10
+FishSenseSharkRange: 50.0
+FishSenseSubmarineRange: 10.0
+FishSenseFishRange: 200.0		// Sense a fish to Flock with
+FishMaxNeighborCount: 4
+FishSenseNeighborRange: 5.0		// Max distance between fish to be considered Neighbors
+FishSeparationStrength: 0.3		// These Strengths should sum up to 1.0
+FishAlignmentStrength: 0.2		// These Strengths should sum up to 1.0
+FishCohesionStrength: 0.3		// These Strengths should sum up to 1.0
+FishPreditorAvoidanceStrength: 0.2	// These Strengths should sum up to 1.0
+
+// Shark Properties
+SharkInitialPoints: 130
+SharkMinimumPoints: 50		// Lowest number of points Shark can have (so he doesn't get too slow)
+SharkFeedPoints: 10		// How many points Shark gets for eating a fish
+SharkNourishedPoints: 100
+SharkFullBellyPoints: 160
+SharkHealthDegradeDelay: 1.0	// How often in seconds the Shark should lose a point
+SharkSenseFishRange: 150.0
+SharkSenseSubmarineRange: 100.0
+SharkFeedRange: 1.0
+SharkAttackRange: 1.0
+SharkVelocityFraction: 0.1
+SharkHitDelay: 5.0		// How long the Shark should avoid the Player after attacking them

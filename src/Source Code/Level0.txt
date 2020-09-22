@@ -1,0 +1,9 @@
+// Level Properties
+TimeLimit: 0.0	// No Time limit for this level
+LevelGoal: none	// Must get a score of 5000 to beat the level
+
+LevelStory: You and your marine biologist colleagues\n decide to explore an ice cavern in the Arctic in\n search of new species of marine life
+
+LevelGoalDescription: No specific goal. Just swim around and explore\n as long as you like\n\n Press Esc when done to return to the Main Menu
+
+LevelGoalInGameDescription: Press Esc when done to return to the Main Menu

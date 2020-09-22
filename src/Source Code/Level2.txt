@@ -1,0 +1,40 @@
+// Level Properties
+TimeLimit: 200.0		// Time limit of level in seconds
+LevelGoal: collect 25 101	// Must collect 50 Diamonds before time runs out
+
+LevelStory: There is a problem with the submarine and\n it is losing power and slowing down. Collect\n Power Crystals to help power up the\n submarine and increase its speed. If the\n submarine runs out of power the life-support\n will turn off and there will be no chance of\n making it back to the surface
+
+LevelGoalDescription: Collect 30 Power Crystals before time runs out
+
+LevelGoalInGameDescription: Collect 30 Power Crystals before time runs out
+
+LevelGoalAccomplishedMessage: Great! The submarine is back up to full power!
+
+PlayerMaxSpeed: 2.0
+
+CreateMultipleObjects: 20 101	// Create 20 Crystals at random positions
+
+// Specify the positions of the other 20 crystals
+CreateObject: 101 0 0 50 0 0 0
+CreateObject: 101 0 0 -50 0 0 0
+CreateObject: 101 0 0 100 0 0 0
+CreateObject: 101 0 0 -100 0 0 0
+CreateObject: 101 50 0 0 0 0 0
+
+CreateObject: 101 -50 0 0 0 0 0
+CreateObject: 101 100 0 0 0 0 0
+CreateObject: 101 -100 0 0 0 0 0
+CreateObject: 101 0 50 0 0 0 0
+CreateObject: 101 0 -50 0 0 0 0
+
+CreateObject: 101 0 100 0 0 0 0
+CreateObject: 101 0 -100 0 0 0 0
+CreateObject: 101 -50 0 -50 0 0 0
+CreateObject: 101 -50 0 50 0 0 0
+CreateObject: 101 50 0 -50 0 0 0
+
+CreateObject: 101 50 0 50 0 0 0
+CreateObject: 101 -100 0 -100 0 0 0
+CreateObject: 101 100 0 -100 0 0 0
+CreateObject: 101 -100 0 100 0 0 0
+CreateObject: 101 100 0 100 0 0 0

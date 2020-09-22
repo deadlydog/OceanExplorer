@@ -1,0 +1,181 @@
+
+material Turtle/caparazon
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.192157 0.109804 0.0392157 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleTop.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/plastron
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.0392157 0.498039 0.458824 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleBottom.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/interior
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.478431 0.396078 0.196078 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleInterior.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/cola
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.517647 0.333333 0.0901961 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleCola.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/pata
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.478431 0.396078 0.196078 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleLegs.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/uña
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.72549 0.698039 0.4 1
+			cull_hardware none
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleUna.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/head1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.34902 0.2 0.2 1
+			diffuse 0.698039 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleHead.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/eye
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.968628 0.698039 0.054902 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleEye.JPG
+			}
+		}
+
+	}
+
+}
+
+material Turtle/head2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.34902 0.2 0.2 1
+			diffuse 0.698039 0.4 0.4 1
+
+			texture_unit
+			{
+				texture_alias 0
+				texture TurtleHead2.JPG
+			}
+		}
+
+	}
+
+}
