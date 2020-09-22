@@ -5,7 +5,7 @@ A simple game created using C++ and Ogre3D in 2007.
 You control a submarine and swim around a 3D ocean completing objectives while avoiding the shark.
 The fish flock in groups and the shark uses a simple AI where if the shark is hungry it will hunt fish, and if it is full it will hunt your submarine.
 There are 5 levels.
-I still have to add music and sounds to the game, but it is fully playable.
+I did not get around to adding music and sound effects to the game, but it is still fully playable.
 
 ![Ocean Explorer screenshot](docs/Images/OceanExplorerScreenshot.jpg)
 
@@ -13,7 +13,8 @@ I still have to add music and sounds to the game, but it is fully playable.
 
 [Download the zip](Installers/) containing the executable and check it out.
 
-To play the game, go into the "bin\release" folder and run "Assignment.exe". There are also instructions for how to run the game from the source code in Visual Studio 2005 in the "How To Run Game.txt" file.
+To play the game, go into the "bin\release" folder and run "Assignment.exe".
+There are also instructions for how to run the game from the source code in Visual Studio 2005 in the "How To Run Game.txt" file.
 
 ## History
 
